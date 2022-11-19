@@ -12,7 +12,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
   //Posting the data in database   
   
-  $sql = "INSERT INTO `testing` (`name`, `email`, `phone`, `subject`, `message`) VALUES('$name','$email','$phone','$subject','$message');";
+  $sql = "INSERT INTO `Your database table name here` (`name`, `email`, `phone`, `subject`, `message`) VALUES('$name','$email','$phone','$subject','$message');";
 if($conn->query($sql)){
   echo '
   <html>
