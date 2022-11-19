@@ -62,8 +62,8 @@ input:hover{
     <legend>
       Confirmation Slip
     </legend>
-    <span>Name  : '.$Name.'</span><br />
-    <span>Email  : '.$Email.'</span><br />
+    <span>Name  : '.$name.'</span><br />
+    <span>Email  : '.$email.'</span><br />
     <span>DATE OF ADMISSION : '.date("d/m/Y").'</span>
   </fieldset>
   <div id="print"><input value="Print" type="button" onclick="print()"> </div>
