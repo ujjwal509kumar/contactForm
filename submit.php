@@ -64,7 +64,7 @@ input:hover{
     </legend>
     <span>Name  : '.$name.'</span><br />
     <span>Email  : '.$email.'</span><br />
-    <span>DATE OF ADMISSION : '.date("d/m/Y").'</span>
+    <span>DATE OF SUBMISSION : '.date("d/m/Y").'</span>
   </fieldset>
   <div id="print"><input value="Print" type="button" onclick="print()"> </div>
   </body></html>';
